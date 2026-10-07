@@ -1,0 +1,17 @@
+# Repository line-ending policy: text files are stored and checked out with LF.
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.toml  text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.cfg   text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+*.pt    binary
+*.pth   binary
